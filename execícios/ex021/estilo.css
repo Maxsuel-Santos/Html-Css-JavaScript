@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(70, 142, 236);
+    font: bold 16pt Arial;
+    text-shadow: 1px 1px 1px rgb(255, 255, 0);
+}
+ header, footer {
+     text-align: center;
+     color: #ffffff;
+     text-shadow: 2px 2px 2px #000000;
+}
+ section {
+     background-color: hsl(0, 0%, 100%);
+     border-radius: 10px;
+     padding: 15px;
+     width: 500px;
+     margin: auto;
+     box-shadow: 3px 3px 3px rgb(0, 0, 0);
+ }
+
+ select#flista {
+     width: 150px;
+ }
+
+ p {
+     text-align: center;
+ }
+strong {
+    text-shadow: 1px 1px 1px #ff0000;
+}

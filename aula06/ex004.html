@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes JS</title>
+    <style>
+        body{
+            background-color: black;
+            font: bold 13pt Arial;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = String(window.prompt('Digite seu nome:'))
+        document.write(`Olá ${nome}, seu nome tem ${nome.length} letras.<br>`)
+        document.write(`Seu nome em maiúsculo é: ${nome.toUpperCase()}<br>`)
+        document.write(`Seu nome em minúsculo é: ${nome.toLowerCase()}<br>`)
+        //
+        var número = Number(window.prompt('Digite um número:'))
+        document.write(`Você digitou: ${número.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})} <- FORMATADO.<br>`)
+    </script>
+</body>
+</html>

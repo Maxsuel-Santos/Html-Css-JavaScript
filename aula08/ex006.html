@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coisa séria - 2020</title>
+    <style>
+        body{
+            background-color: #d8cbcb;
+        }
+        p#sim{
+            color: rgb(27, 131, 27);
+        }
+        p{
+            color: red;
+            font: bold 15pt Arial;
+        }
+        h3{
+            font: bolder 20pt Arial;
+            color: rgb(0, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.alert('Favor, não minta. Você pode se prejudicar com dados icoerentes. Obrigado!')
+        var nome = String(window.prompt('Qual o seu nome completo?'))
+        var cpf = Number(window.prompt('Informe seu cpf (somente números):'))
+        var idade = Number.parseInt(window.prompt('Quantos anos você tem?'))
+        document.write(`<h3>Olá, ${nome}! Seja bem vindo...</h3>`)
+        document.write(`${idade >= 18 ? '<p id="sim">Você pode acessar nosso site!</p>':'<p>Você não pode acessar nosso site devido as restrições de idade do seu país.</p>'}`)
+    </script>
+</body>
+</html>
